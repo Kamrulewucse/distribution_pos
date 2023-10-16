@@ -1,0 +1,93 @@
+.swal2-popup {
+    font-size: 1.6rem !important;
+}
+.box {
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    margin-bottom: 1rem;
+}
+.box {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+}
+
+
+.box-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 0 solid rgba(0,0,0,.125);
+}
+.box-header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 0.75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.box-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.box-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 0 solid rgba(0,0,0,.125);
+}
+section.sidebar {
+    height: 100vh;
+    overflow: auto;
+}
+/* width */
+section.sidebar::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* button */
+section.sidebar::-webkit-scrollbar-button {
+    background: #222;
+}
+
+/* Handle */
+section.sidebar::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+/* Handle on hover */
+section.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Track */
+section.sidebar::-webkit-scrollbar-track {
+    background: #3C8DBC;
+}
+
+/* The track NOT covered by the handle.*/
+
+section.sidebar::-webkit-scrollbar-track-piece {
+    background: #3C8DBC;
+}
+
+/* Corner */
+section.sidebar::-webkit-scrollbar-corner {
+    background: #999;
+}
+
+/* Resizer */
+section.sidebar::-webkit-resizer {
+    background: #111;
+}
+.select2{
+    width: 100% !important;
+}
